@@ -15,7 +15,7 @@ While importing the data set we observe that Age has only 714 values, Cabin 204 
 2 of them are float64 type.
 We would have to change the object features into numeric value to get a viable result from the machine learning algorithm.
 We obtain the minimum age(0.42), maximum age(80), Highest number of Siblings and spouses were 8, only 38% people survived, minimum fare given was 0 while maximum fare given was 512 there were 3 passenger classes from 1-3, so we got an idea and approach of the data.
-Hence, total number of missing values, like Cabin has 687 missing values and age has 177 missing values along with the percentage of the missing value.
+Hence, total number of missing values,like Cabin has 687 missing values and age has 177 missing values along with the percentage of the missing value.
 # Training Different Machine Learning Models
 After using 7 different machine learning models, 
 
@@ -41,6 +41,6 @@ The input data contained 891 rows and 11 features. First we used the existing da
 We created some more relevant features such as title and deck. We used the pre-existing data like ticket and name to extract and fill missing values of features such as cabin, which made it possible to create a useful feature deck.
 We transformed raw data to categories to scale the highly irrelevant range for features like age and fare, which both amounted to top three important features for the prediction. We trained seven different models from Logistic Regression to Random Forest Classification to find out the best fitting model for this problem, and Random Forest returned the accuracy score of 90.91 and was found to be the best model for the problem.
 
-Submitted by : Yashi Srivastava
+
 
 
